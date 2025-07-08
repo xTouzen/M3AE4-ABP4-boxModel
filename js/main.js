@@ -58,7 +58,7 @@ function showPlusOne() {
   }, 1000);
 }
 
-const hydrateButton = document.querySelector(".finger-gym__hydrate-button");
+const hydrateButton = document.querySelector(".finger-gym__hydrate--button");
 const drinkSound = new Audio("assets/sounds/drink.mp3");
 
 hydrateButton.addEventListener("click", () => {
