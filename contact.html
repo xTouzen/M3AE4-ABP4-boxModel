@@ -11,7 +11,6 @@
     <script src="js/main.js" defer></script>
     <title>FingerGym</title>
   </head>
-
   <body>
     <header class="header">
       <div>
@@ -27,17 +26,36 @@
       </nav>
     </header>
 
-    <main class="main">
-      <section class="finger-gym">
-        <h1>Bienvenido a finger gym</h1>
-        <h2>Pase usted!</h2>
-        <p>Comience a entrenar su dedo haciendo click en el botón</p>
-        <button class="finger-gym__button">¡Haz clic!</button>
-        <button class="finger-gym__hydrate--button">💧 Hidrátate</button>
-        <p class="finger-gym__counter">
-          Hoy has hecho <span id="click-count">0</span> flexiones de dedo 💪
-        </p>
-      </section>
+    <main class="contact">
+      <h2 class="contact__title">Contáctanos</h2>
+      <form class="contact__form">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" required />
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" required />
+        </div>
+
+        <div class="form-group">
+          <label for="comentario">Comentario</label>
+          <textarea
+            id="comentario"
+            name="comentario"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="contact__submit-btn">Enviar</button>
+      </form>
     </main>
 
     <footer class="footer">
