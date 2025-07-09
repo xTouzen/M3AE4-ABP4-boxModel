@@ -1,6 +1,6 @@
 # M3AE4-ABP4-boxModel
 El modelo de cajas y el Layout
-
+07/07/2025  
 Se crea página FingerGym con las especificaciones solicitadas.  
 Adicionalmente se integran algunas funciones:  
 
@@ -10,3 +10,7 @@ Otros: Se mantiene el contador todo el día y se reinicia al iniciar un nuevo d�
 Diseño responsivo  
 Nomenclatura BEM  
 
+08/07/2025
+Se agrega products.html  
+se agrega contact.html  
+Otros: Se ajusta header con position fixed y se ajusta footer para que esté siempre al fondo.
